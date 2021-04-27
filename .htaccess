@@ -4,8 +4,6 @@
 # dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
 # Toute modification des directives situées entre ces marqueurs sera surchargée.
 
-# END WordPress
-
 <IfModule mod_rewrite.c>
  RewriteEngine On
  RewriteBase /
@@ -14,3 +12,4 @@
  RewriteCond %{REQUEST_FILENAME} !-d
  RewriteRule . /index.php [L]
 </IfModule>
+# END WordPress

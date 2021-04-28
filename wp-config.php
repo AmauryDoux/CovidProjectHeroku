@@ -36,10 +36,6 @@ define( 'DB_HOST', 'cis9cbtgerlk68wl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' )
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
-define('WP_HOME', 'https://covidprojectheroku.herokuapp.com/');
-
-define('WP_SITEURL', 'https://covidprojectheroku.herokuapp.com/');
-
 /**
  * Type de collation de la base de données.
  * N’y touchez que si vous savez ce que vous faites.
@@ -100,6 +96,3 @@ if ( ! defined( 'ABSPATH' ) )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once( ABSPATH . 'wp-settings.php' );
-
-// if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false)  
-//     $_SERVER['HTTPS']='on';
